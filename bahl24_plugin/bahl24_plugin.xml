@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3.1" type="plugin" group="search" method="upgrade">
+<name>bahl24</name>
+<author>Nitish Bahl</author>
+<description>Custom plugin</description>
+<files>
+		<filename plugin="bahl24">bahl24.php</filename>
+		<folder>tmpl</folder>
+</files>
+<config>
+		<fields name="params">
+            <fieldset name="message">
+                <field
+                    name="message"
+                    type="text"
+                    label="Set default message here"
+                    default="Hi there"
+                >
+                </field>
+            </fieldset>
+        </fields>
+</config>
+</extension>
